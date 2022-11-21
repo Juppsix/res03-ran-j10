@@ -1,0 +1,41 @@
+.Containeur {
+    display : flex;
+    grid-template-columns: 1fr 60px;
+}
+.div1 {
+    
+    text-align: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    text-align : left;
+}
+.div2 {
+    
+    text-align: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+.div3 {
+    
+    text-align: center;
+    width : 100%;
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #253879;;
+    font-family:'Oswald', sans-serif;
+}
+.div1 > h2 {
+   background-color : #3a61ef;
+   color: white;
+}
+.div2 > h2 {
+    background-color : #3a61ef;
+    color: white;
+}
+.div3 > h2 {
+    background-color : #3a61ef;
+    color: white;
+}
