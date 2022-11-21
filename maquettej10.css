@@ -1,3 +1,5 @@
+
+/* Containeur & Div */
 .Containeur {
     display : flex;
     grid-template-columns: 1fr 60px;
@@ -15,6 +17,10 @@
     width: 100%;
     font-family: 'Oswald', sans-serif;
     text-align: left;
+    border-right: thin solid white;
+    border-left: thin solid white;
+
+    
 }
 .div3 {
     
@@ -22,20 +28,38 @@
     width : 100%;
     font-family: 'Oswald', sans-serif;
 }
+/* Police */
 h1 {
     text-align: center;
-    color: #253879;;
+    color: #253879;
     font-family:'Oswald', sans-serif;
+    padding: justify;
 }
 .div1 > h2 {
    background-color : #3a61ef;
    color: white;
+   height : 80px;
+   text-align : center;
+   width: 100%;
+   display: flex;
+   justify-content: center;
 }
 .div2 > h2 {
     background-color : #3a61ef;
     color: white;
+    height : 80px;
+    text-align : center;
+    width: 100%;
 }
 .div3 > h2 {
     background-color : #3a61ef;
     color: white;
+    height: 80px;
+    text-align : center;
+    width: 100%;
+}
+/* Commentaire */
+body {
+    background-color: #ffffff;
+    margin : 0px;
 }
